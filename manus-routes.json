@@ -1,9 +1,0 @@
-{
-  "routes": [
-    { "path": "/", "title": "Home | CampusGuide" },
-    { "path": "/about", "title": "About Us | CampusGuide" },
-    { "path": "/programmes", "title": "Academic Programmes | CampusGuide" },
-    { "path": "/campus-life", "title": "Campus Life | CampusGuide" },
-    { "path": "/contact", "title": "Contact Us | CampusGuide" }
-  ]
-}
