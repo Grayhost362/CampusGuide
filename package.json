@@ -1,0 +1,11 @@
+{
+  "name": "campusguide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A responsive student campus information website.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs && node --check public/app.js"
+  }
+}

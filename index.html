@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CampusGuide is a clear, student-friendly guide to programmes, campus life, and essential information." />
+    <meta name="theme-color" content="#0b1f3a" />
+    <title>Home | CampusGuide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="header-inner container">
+          <a class="brand" href="/" data-route-link aria-label="CampusGuide home">
+            <span class="brand-mark" aria-hidden="true"><span>CG</span></span>
+            <span class="brand-copy"><strong>Campus<span>Guide</span></strong><small>YOUR NEXT STEP, MADE CLEAR</small></span>
+          </a>
+          <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="sr-only">Toggle navigation</span><i></i><i></i></button>
+          <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+            <a href="/" data-route-link data-route="home">Home</a>
+            <a href="/about" data-route-link data-route="about">About Us</a>
+            <a href="/programmes" data-route-link data-route="programmes">Programmes</a>
+            <a href="/campus-life" data-route-link data-route="campus-life">Campus Life</a>
+            <a class="nav-cta" href="/contact" data-route-link data-route="contact">Contact us <span aria-hidden="true">↗</span></a>
+          </nav>
+        </div>
+      </header>
+
+      <main id="main-content">
+        <section class="page-view active" data-page="home" aria-labelledby="home-heading">
+          <div class="hero container">
+            <div class="hero-copy">
+              <p class="eyebrow"><span class="eyebrow-dot"></span> A sample student information centre</p>
+              <h1 id="home-heading">Find your place.<br /><em>Build what’s next.</em></h1>
+              <p class="hero-lede">Explore programmes, spaces, and the everyday details that make campus feel like home.</p>
+              <div class="hero-actions">
+                <a class="button button-primary" href="/programmes" data-route-link>Explore programmes <span aria-hidden="true">↗</span></a>
+                <a class="text-link" href="/about" data-route-link>Why CampusGuide <span aria-hidden="true">→</span></a>
+              </div>
+              <div class="hero-note"><span class="note-line"></span><span>Sample content for a university or college information website.</span></div>
+            </div>
+            <div class="hero-art" aria-label="Illustration of a campus building and students">
+              <div class="sun-orb"></div>
+              <div class="hero-tag tag-one"><strong>01</strong><span>Learn<br />with purpose</span></div>
+              <div class="hero-tag tag-two"><strong>02</strong><span>Live<br />connected</span></div>
+              <div class="campus-illustration">
+                <div class="tree tree-left"><i></i><i></i><i></i></div>
+                <div class="tree tree-right"><i></i><i></i><i></i></div>
+                <div class="building-main"><div class="building-roof"></div><div class="building-body"><span class="window w1"></span><span class="window w2"></span><span class="window w3"></span><span class="window w4"></span><span class="door"></span></div></div>
+                <div class="building-wing wing-left"></div><div class="building-wing wing-right"></div>
+                <div class="pathway"></div>
+                <div class="person person-one"><span></span></div><div class="person person-two"><span></span></div>
+              </div>
+              <div class="hero-art-caption"><span class="caption-rule"></span><span>Discover a campus designed<br />around your next chapter.</span></div>
+            </div>
+          </div>
+
+          <div class="quick-strip container" aria-label="Explore CampusGuide">
+            <div class="strip-label"><span>EXPLORE</span><strong>Start where<br />you are.</strong></div>
+            <a class="quick-card" href="/programmes" data-route-link><span class="quick-icon icon-grid" aria-hidden="true"></span><span><small>ACADEMICS</small><strong>Find your programme</strong></span><span class="card-arrow" aria-hidden="true">↗</span></a>
+            <a class="quick-card" href="/campus-life" data-route-link><span class="quick-icon icon-spark" aria-hidden="true">✦</span><span><small>CAMPUS LIFE</small><strong>See what’s happening</strong></span><span class="card-arrow" aria-hidden="true">↗</span></a>
+            <a class="quick-card" href="/about" data-route-link><span class="quick-icon icon-circle" aria-hidden="true">◎</span><span><small>THE INSTITUTION</small><strong>Get to know us</strong></span><span class="card-arrow" aria-hidden="true">↗</span></a>
+            <a class="quick-card" href="/contact" data-route-link><span class="quick-icon icon-chat" aria-hidden="true">↗</span><span><small>QUESTIONS?</small><strong>Find your contact</strong></span><span class="card-arrow" aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="home-intro container">
+            <div class="section-kicker"><span class="kicker-number">01</span><span>THE BIG PICTURE</span></div>
+            <div class="intro-grid"><h2>A clearer way to<br /><span>see campus.</span></h2><div class="intro-copy"><p>CampusGuide brings the essentials into one easy-to-navigate place, so students, families, and visitors can spend less time searching and more time planning their next move.</p><a class="text-link" href="/about" data-route-link>Read the story <span aria-hidden="true">→</span></a></div></div>
+          </div>
+          <div class="marquee" aria-hidden="true"><div>LEARN <span>✦</span> CONNECT <span>✦</span> CREATE <span>✦</span> BELONG <span>✦</span> LEARN <span>✦</span> CONNECT <span>✦</span> CREATE <span>✦</span> BELONG <span>✦</span></div></div>
+        </section>
+
+        <section class="page-view" data-page="about" aria-labelledby="about-heading">
+          <div class="page-hero container slim-hero"><div><p class="eyebrow"><span class="eyebrow-dot"></span> The big picture</p><h1 id="about-heading">More than a place<br /><em>to study.</em></h1></div><p class="page-hero-intro">Campus is where ideas find momentum. Get to know the story, values, and people behind this sample institution.</p></div>
+          <div class="about-feature container"><div class="feature-label"><span class="kicker-number">02</span><span>OUR STORY</span></div><div class="feature-content"><p class="large-copy">Founded in 1998, <strong>Northstar College</strong> began with one belief: opportunity grows when people learn alongside one another.</p><p class="body-copy">Today, it is a connected community of schools, studios, laboratories, and shared spaces. The details below are sample content to help shape your own institutional story.</p></div></div>
+          <div class="values-band"><div class="container values-grid"><div class="section-kicker light"><span class="kicker-number">03</span><span>WHAT GUIDES US</span></div><div class="value-block"><span class="value-index">01</span><h2>Mission</h2><p>To make practical, future-facing education accessible to every curious mind.</p></div><div class="value-block"><span class="value-index">02</span><h2>Vision</h2><p>A learning community that turns bold questions into meaningful change.</p></div><div class="value-block"><span class="value-index">03</span><h2>Values</h2><p>Curiosity, integrity, belonging, and the courage to try again.</p></div></div></div>
+          <div class="facts-section container"><div class="section-kicker"><span class="kicker-number">04</span><span>BY THE NUMBERS</span></div><div class="facts-row"><div class="fact"><strong>25<span>+</span></strong><small>YEARS OF<br />LEARNING</small></div><div class="fact"><strong>06</strong><small>SCHOOLS &<br />DEPARTMENTS</small></div><div class="fact"><strong>4.2<span>k</span></strong><small>STUDENTS<br />ON CAMPUS</small></div><div class="fact"><strong>18</strong><small>STUDENT<br />CLUBS</small></div></div></div>
+        </section>
+
+        <section class="page-view" data-page="programmes" aria-labelledby="programmes-heading">
+          <div class="page-hero container slim-hero"><div><p class="eyebrow"><span class="eyebrow-dot"></span> Find your direction</p><h1 id="programmes-heading">Study something<br /><em>that moves you.</em></h1></div><p class="page-hero-intro">Six starting points. Hundreds of questions worth asking. Browse the sample schools and imagine where yours could lead.</p></div>
+          <div class="programmes-wrap container"><div class="section-kicker"><span class="kicker-number">05</span><span>SCHOOLS & DEPARTMENTS</span></div><div class="programme-list">
+            <article class="programme-card featured-card"><div class="programme-number">01</div><div class="programme-icon">⌘</div><div class="programme-info"><p class="card-kicker">COMPUTING & INFORMATION TECHNOLOGY</p><h2>Make the invisible<br />feel possible.</h2><p>From first principles to full-stack thinking, build the tools people use to move through the world.</p><ul><li>BSc Information Technology</li><li>Diploma in Computer Science</li><li>Certificate in Web Design</li></ul></div><a class="programme-arrow" href="/contact" data-route-link aria-label="Ask about Computing and Information Technology">↗</a></article>
+            <article class="programme-card"><div class="programme-number">02</div><div class="programme-icon">◒</div><div class="programme-info"><p class="card-kicker">BUSINESS</p><h2>Turn good ideas<br />into momentum.</h2><p>Learn to understand people, markets, and the decisions that shape organisations.</p><ul><li>Bachelor of Commerce</li><li>Diploma in Business Management</li></ul></div><a class="programme-arrow" href="/contact" data-route-link aria-label="Ask about Business programmes">↗</a></article>
+            <article class="programme-card"><div class="programme-number">03</div><div class="programme-icon">⌁</div><div class="programme-info"><p class="card-kicker">ENGINEERING</p><h2>Design for the<br />real world.</h2><p>Build resilient solutions with practical engineering fundamentals and hands-on projects.</p><ul><li>BSc Electrical Engineering</li><li>Diploma in Civil Engineering</li></ul></div><a class="programme-arrow" href="/contact" data-route-link aria-label="Ask about Engineering programmes">↗</a></article>
+            <article class="programme-card"><div class="programme-number">04</div><div class="programme-icon">✦</div><div class="programme-info"><p class="card-kicker">EDUCATION</p><h2>Help the next<br />mind open up.</h2><p>Prepare to lead classrooms and communities with empathy, creativity, and care.</p><ul><li>Bachelor of Education (Arts)</li><li>Diploma in Early Childhood Education</li></ul></div><a class="programme-arrow" href="/contact" data-route-link aria-label="Ask about Education programmes">↗</a></article>
+            <article class="programme-card"><div class="programme-number">05</div><div class="programme-icon">⊕</div><div class="programme-info"><p class="card-kicker">HEALTH SCIENCES</p><h2>Care that reaches<br />further.</h2><p>Study the science and practice of supporting healthier people and communities.</p><ul><li>Diploma in Clinical Medicine</li><li>Certificate in Community Health</li></ul></div><a class="programme-arrow" href="/contact" data-route-link aria-label="Ask about Health Sciences programmes">↗</a></article>
+            <article class="programme-card"><div class="programme-number">06</div><div class="programme-icon">◌</div><div class="programme-info"><p class="card-kicker">HUMANITIES & SOCIAL SCIENCES</p><h2>Understand the<br />human story.</h2><p>Explore communication, culture, society, and the forces that connect us.</p><ul><li>BA Communication</li><li>BA Sociology</li></ul></div><a class="programme-arrow" href="/contact" data-route-link aria-label="Ask about Humanities and Social Sciences programmes">↗</a></article>
+          </div></div>
+        </section>
+
+        <section class="page-view" data-page="campus-life" aria-labelledby="campus-heading">
+          <div class="page-hero container slim-hero"><div><p class="eyebrow"><span class="eyebrow-dot"></span> Beyond the timetable</p><h1 id="campus-heading">Make the most<br /><em>of your days.</em></h1></div><p class="page-hero-intro">The best campus memories rarely happen in a lecture room. Find the spaces, teams, and people that make the ordinary feel electric.</p></div>
+          <div class="life-intro container"><div class="section-kicker"><span class="kicker-number">06</span><span>YOUR CAMPUS, YOUR RHYTHM</span></div><p class="large-copy">A campus works best when it gives you room to focus, reset, meet someone new, or simply stay a little longer.</p></div>
+          <div class="life-grid container"><article class="life-card life-library"><div class="life-card-top"><span class="life-icon">▤</span><span class="card-kicker">01 / FOCUS</span></div><h2>Library<br />facilities</h2><p>Quiet study floors, group rooms, borrowing support, and online resources when you need to go deeper.</p><div class="life-detail"><strong>Open weekdays</strong><span>08:00 — 21:00</span></div></article><article class="life-card life-labs"><div class="life-card-top"><span class="life-icon">⌘</span><span class="card-kicker">02 / BUILD</span></div><h2>Computer<br />laboratories</h2><p>120 workstations, specialist software, reliable internet, and practical support for every project.</p><div class="life-detail"><strong>Open weekdays</strong><span>07:30 — 20:00</span></div></article><article class="life-card life-sport"><div class="life-card-top"><span class="life-icon">✦</span><span class="card-kicker">03 / MOVE</span></div><h2>Sports &<br />recreation</h2><p>Grounds, a training studio, student teams, and annual events that bring the whole campus together.</p><div class="life-detail"><strong>Drop in or join a team</strong><span>All levels welcome</span></div></article><article class="life-card life-home"><div class="life-card-top"><span class="life-icon">⌂</span><span class="card-kicker">04 / RESET</span></div><h2>Student<br />accommodation</h2><p>Shared and private room options near the main campus, with simple application support.</p><div class="life-detail"><strong>Applications open</strong><span>Before each semester</span></div></article><article class="life-card life-clubs"><div class="life-card-top"><span class="life-icon">◌</span><span class="card-kicker">05 / CONNECT</span></div><h2>Clubs &<br />activities</h2><p>Find your people through 18 student clubs, from debate and coding to music and community action.</p><div class="life-detail"><strong>Meetings weekly</strong><span>Ask at Student Life</span></div></article></div>
+        </section>
+
+        <section class="page-view" data-page="contact" aria-labelledby="contact-heading">
+          <div class="page-hero container slim-hero contact-hero"><div><p class="eyebrow"><span class="eyebrow-dot"></span> Let’s talk</p><h1 id="contact-heading">Start with a<br /><em>good question.</em></h1></div><p class="page-hero-intro">Whether you are planning your first visit or choosing your next course, the right person is closer than you think.</p></div>
+          <div class="contact-layout container"><div class="contact-details"><div class="section-kicker"><span class="kicker-number">07</span><span>FIND US HERE</span></div><h2>Northstar College<br /><span>Student Centre</span></h2><div class="contact-item"><span class="contact-label">EMAIL</span><a href="mailto:hello@northstar.example">hello@northstar.example</a></div><div class="contact-item"><span class="contact-label">PHONE</span><a href="tel:+254700123456">+254 700 123 456</a></div><div class="contact-item"><span class="contact-label">LOCATION</span><p>14 Learning Lane<br />Westlands, Nairobi<br />Kenya</p></div><div class="mini-map" aria-label="Illustrated map showing Northstar College location"><span class="map-road road-a"></span><span class="map-road road-b"></span><span class="map-road road-c"></span><span class="map-pin">✦</span><span class="map-label">NORTHSTAR<br />COLLEGE</span></div></div><div class="contact-form-wrap"><div class="form-heading"><span>ASK AWAY</span><p>We’ll point you<br />in the right direction.</p></div><form id="contact-form" novalidate><label for="full-name">Full name <span>*</span></label><input id="full-name" name="name" type="text" autocomplete="name" required placeholder="Your name" /><label for="email">Email address <span>*</span></label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" /><label for="message">How can we help? <span>*</span></label><textarea id="message" name="message" rows="4" required placeholder="Tell us what you’re looking for..."></textarea><button class="button button-dark" type="submit">Send message <span aria-hidden="true">↗</span></button><p class="form-status" id="form-status" role="status" aria-live="polite"></p></form></div></div>
+        </section>
+      </main>
+
+      <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="brand" href="/" data-route-link><span class="brand-mark" aria-hidden="true"><span>CG</span></span><span class="brand-copy"><strong>Campus<span>Guide</span></strong><small>YOUR NEXT STEP, MADE CLEAR</small></span></a><p>A clearer way to find your place on campus.</p></div><div class="footer-links"><div><span class="footer-heading">EXPLORE</span><a href="/about" data-route-link>About Us</a><a href="/programmes" data-route-link>Programmes</a><a href="/campus-life" data-route-link>Campus Life</a></div><div><span class="footer-heading">CONNECT</span><a href="/contact" data-route-link>Contact Us</a><a href="mailto:hello@northstar.example">Email us</a><a href="tel:+254700123456">Call +254 700 123 456</a></div></div><a class="back-top" href="#main-content" aria-label="Back to top">↑</a></div><div class="container footer-bottom"><span>© 2025 CampusGuide. Sample project content.</span><span>Built for clearer beginnings.</span></div></footer>
+    </div>
+  </body>
+</html>
